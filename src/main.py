@@ -4,3 +4,5 @@ if __name__ == '__main__':
     # if it is 0 then they will not
     D = dictionary_maker("docs",1)
     dict = D.dict
+
+    

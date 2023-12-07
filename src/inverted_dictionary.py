@@ -17,6 +17,7 @@ class dictionary_maker:
 
     def makeDictionary(self):
         if self.filter:
+            nltk.download('stopwords')
             stop_words = set(stopwords.words('english'))
         # Loop through all files in the directory
         for filename in os.listdir(self.collectionPath):
